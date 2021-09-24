@@ -19,7 +19,7 @@ namespace Medidas
             Console.ResetColor();
             Console.WriteLine($"{medidaCm}cm");
             Console.WriteLine($"{medidaM}m");
-            Console.WriteLine($"{medidaKm}km");
+            Console.WriteLine($"{medidaKm:2}km");
             Console.WriteLine();
         }
     }
