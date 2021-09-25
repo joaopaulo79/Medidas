@@ -25,9 +25,7 @@ namespace Medidas
             Console.WriteLine("\n=== Equivalência ===\n");
             Console.ResetColor();
 
-            Console.WriteLine($"{cm} cm");
-            Console.WriteLine($"{m} m");
-            Console.WriteLine($"{km:N2} km\n");
+            Console.WriteLine($"{cm} cm\n{m} m\n{km:N2} km\n");
         }
     }
 }
